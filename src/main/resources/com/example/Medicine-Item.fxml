@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="boxMedicine" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="733.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="Name" prefHeight="40.0" prefWidth="170.0" style="-fx-background-color: #CCCCFF;" text="Name" />
+      <Label fx:id="Price" layoutX="170.0" prefHeight="40.0" prefWidth="118.0" style="-fx-background-color: #CCCCFF;" text="Price" />
+      <Label fx:id="Production" layoutX="288.0" prefHeight="40.0" prefWidth="190.0" style="-fx-background-color: #CCCCFF;" text="Production" />
+      <Label fx:id="Stock" layoutX="668.0" prefHeight="40.0" prefWidth="66.0" style="-fx-background-color: #CCCCFF;" text="Stock" />
+      <Label fx:id="Expiration" layoutX="478.0" prefHeight="40.0" prefWidth="190.0" style="-fx-background-color: #CCCCFF;" text="Expiration" />
+   </children>
+</AnchorPane>

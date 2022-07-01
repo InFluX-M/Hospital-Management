@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="309.0" prefWidth="600.0" style="-fx-background-color: #D3D3D3;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <JFXButton layoutX="91.0" layoutY="182.0" onMouseClicked="#Visit" prefHeight="106.0" prefWidth="182.0" style="-fx-background-color: gray;" text="Visit" />
+      <Label fx:id="TurnNumber" layoutX="91.0" layoutY="105.0" prefHeight="46.0" prefWidth="202.0" style="-fx-background-color: #CCCCFF;" text="TurnNumber" />
+      <Label fx:id="Name" layoutX="324.0" layoutY="105.0" prefHeight="46.0" prefWidth="202.0" style="-fx-background-color: #CCCCFF;" text="Name" />
+      <Label prefHeight="88.0" prefWidth="600.0" style="-fx-background-color: #C19A6B;" text="                                       Visit Patient Panel" textFill="#474636">
+         <font>
+            <Font name="Segoe UI Black" size="20.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="500.0" layoutY="239.0" onMouseClicked="#exit" prefHeight="56.0" prefWidth="85.0" style="-fx-background-color: #560319;" text="Exit" textFill="WHITE">
+         <font>
+            <Font name="B Aria" size="12.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="395.0" layoutY="239.0" onMouseClicked="#back" prefHeight="56.0" prefWidth="94.0" style="-fx-background-color: #7E191B;" text="Back" textFill="WHITE" />
+   </children>
+</AnchorPane>

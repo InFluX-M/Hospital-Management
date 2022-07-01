@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="286.0" prefWidth="600.0" style="-fx-background-color: #F8F6F0;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projectta3.DateManagementAdminCLR">
+   <children>
+      <JFXButton layoutX="78.0" layoutY="109.0" onMouseClicked="#nextDay" prefHeight="106.0" prefWidth="182.0" style="-fx-background-color: #B38481;" text="Next Day" />
+      <Label fx:id="nowDay" layoutX="317.0" layoutY="129.0" prefHeight="46.0" prefWidth="247.0" style="-fx-background-color: #FCDFFF;" textAlignment="CENTER" />
+      <JFXButton layoutX="499.0" layoutY="215.0" onMouseClicked="#exit" prefHeight="56.0" prefWidth="85.0" style="-fx-background-color: #560319;" text="Exit" textFill="WHITE">
+         <font>
+            <Font name="B Aria" size="12.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="394.0" layoutY="215.0" onMouseClicked="#back" prefHeight="56.0" prefWidth="94.0" style="-fx-background-color: #7E191B;" text="Back" textFill="WHITE" />
+      <Label prefHeight="82.0" prefWidth="600.0" style="-fx-background-color: #C19A6B;" text="                                 Data Management Panel" textFill="#474636">
+         <font>
+            <Font name="Segoe UI Black" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

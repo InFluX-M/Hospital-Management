@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXListView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="692.0" prefWidth="548.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projectta3.StatueDoctorCLR">
+    <children>
+        <Label fx:id="MonthlyIncome" layoutX="157.0" layoutY="96.0" prefHeight="32.0" prefWidth="194.0" style="-fx-background-color: #FDD7E4;" text="MonthlyIncome" />
+        <Label fx:id="Checkout" layoutX="361.0" layoutY="96.0" prefHeight="32.0" prefWidth="86.0" style="-fx-background-color: #FDD7E4;" text="Checkout" />
+        <JFXButton fx:id="GetPaid" layoutX="458.0" layoutY="96.0" onMouseClicked="#GetPaid" prefHeight="32.0" prefWidth="74.0" style="-fx-background-color: #C48189;" text="Get Paid" />
+        <JFXListView fx:id="listBussinessDate" layoutX="104.0" layoutY="228.0" prefHeight="382.0" prefWidth="241.0" />
+        <Label prefHeight="82.0" prefWidth="548.0" style="-fx-background-color: #C19A6B;" text="                                           Statue" textFill="#474636">
+            <font>
+                <Font name="Segoe UI Black" size="20.0" />
+            </font>
+        </Label>
+        <Label layoutX="14.0" layoutY="96.0" prefHeight="32.0" prefWidth="117.0" style="-fx-background-color: #CCCCFF;" text="MonthlyIncome:" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+        <JFXButton layoutX="448.0" layoutY="622.0" onMouseClicked="#exit" prefHeight="56.0" prefWidth="85.0" style="-fx-background-color: #560319;" text="Exit" textFill="WHITE">
+            <font>
+                <Font name="Segoe UI Light" size="15.0" />
+            </font>
+        </JFXButton>
+        <JFXButton layoutX="339.0" layoutY="622.0" onMouseClicked="#back" prefHeight="56.0" prefWidth="94.0" style="-fx-background-color: #7E191B;" text="Back" textFill="WHITE">
+            <font>
+                <Font name="Segoe UI Light" size="15.0" />
+            </font>
+        </JFXButton>
+      <Label layoutX="14.0" layoutY="137.0" prefHeight="32.0" prefWidth="94.0" style="-fx-background-color: #CCCCFF;" text="Daily Income:" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="177.0" prefHeight="32.0" prefWidth="163.0" style="-fx-background-color: #CCCCFF;" text="Monthly Paid Estimates:" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="DailyIncome" layoutX="209.0" layoutY="137.0" prefHeight="32.0" prefWidth="194.0" style="-fx-background-color: #FDD7E4;" text="DailyIncome" />
+      <Label fx:id="MonthlyPaidEstimates" layoutX="209.0" layoutY="177.0" prefHeight="32.0" prefWidth="194.0" style="-fx-background-color: #FDD7E4;" text="MonthlyPaidEstimates" />
+    </children>
+</AnchorPane>

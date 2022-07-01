@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="449.0" prefWidth="600.0" style="-fx-background-color: #F8F6F0;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projectta3.MainPatientCLR">
+   <children>
+      <JFXButton layoutX="13.0" layoutY="115.0" onMouseClicked="#editInformation" prefHeight="106.0" prefWidth="182.0" style="-fx-background-color: #B38481;" text="Edit Information">
+         <font>
+            <Font name="Segoe UI Light" size="14.0" />
+         </font></JFXButton>
+      <JFXButton layoutX="208.0" layoutY="115.0" onMouseClicked="#drList" prefHeight="106.0" prefWidth="182.0" style="-fx-background-color: #B38481;" text="Dr List">
+         <font>
+            <Font name="Segoe UI Light" size="14.0" />
+         </font></JFXButton>
+      <JFXButton layoutX="403.0" layoutY="115.0" onMouseClicked="#DrSearch" prefHeight="106.0" prefWidth="182.0" style="-fx-background-color: #B38481;" text="Dr Search">
+         <font>
+            <Font name="Segoe UI Light" size="14.0" />
+         </font></JFXButton>
+      <JFXButton layoutX="14.0" layoutY="250.0" onMouseClicked="#getTurn" prefHeight="106.0" prefWidth="182.0" style="-fx-background-color: #B38481;" text="Get Turn">
+         <font>
+            <Font name="Segoe UI Light" size="14.0" />
+         </font></JFXButton>
+      <JFXButton layoutX="208.0" layoutY="250.0" onMouseClicked="#historyTurns" prefHeight="106.0" prefWidth="182.0" style="-fx-background-color: #B38481;" text="History Turns">
+         <font>
+            <Font name="Segoe UI Light" size="14.0" />
+         </font></JFXButton>
+      <JFXButton layoutX="405.0" layoutY="250.0" onMouseClicked="#historyPrescriptions" prefHeight="106.0" prefWidth="182.0" style="-fx-background-color: #B38481;" text="History Prescriptions">
+         <font>
+            <Font name="Segoe UI Light" size="14.0" />
+         </font></JFXButton>
+      <JFXButton layoutX="505.0" layoutY="379.0" onMouseClicked="#exit" prefHeight="56.0" prefWidth="85.0" style="-fx-background-color: #560319;" text="Exit" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI Light" size="15.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="396.0" layoutY="379.0" onMouseClicked="#back" prefHeight="56.0" prefWidth="94.0" style="-fx-background-color: #7E191B;" text="Back" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI Light" size="15.0" />
+         </font>
+      </JFXButton>
+      <Label prefHeight="82.0" prefWidth="600.0" style="-fx-background-color: #C19A6B;" text="                                        Patient Panel" textFill="#474636">
+         <font>
+            <Font name="Segoe UI Black" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

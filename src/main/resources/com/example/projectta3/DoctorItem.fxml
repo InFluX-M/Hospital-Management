@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="boxDoctor" prefHeight="36.0" prefWidth="414.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Label fx:id="Name" layoutX="144.0" prefHeight="36.0" prefWidth="178.0" style="-fx-background-color: #CCCCFF;" text="Name" />
+        <Label fx:id="ID" prefHeight="36.0" prefWidth="144.0" style="-fx-background-color: #CCCCFF;" text="ID" />
+        <Label fx:id="Speciality" layoutX="322.0" prefHeight="36.0" prefWidth="91.0" style="-fx-background-color: #CCCCFF;" text="Speciality" />
+    </children>
+</AnchorPane>

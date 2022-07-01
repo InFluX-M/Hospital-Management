@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXListView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="716.0" prefWidth="474.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.Avabilities.SearchDoctorPatient">
+   <children>
+      <JFXListView fx:id="listDoctors" layoutX="16.0" layoutY="221.0" prefHeight="416.0" prefWidth="442.0" />
+      <Label prefHeight="88.0" prefWidth="474.0" style="-fx-background-color: #C19A6B;" text="                                Doctor List" textFill="#474636">
+         <font>
+            <Font name="Segoe UI Black" size="20.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="374.0" layoutY="646.0" onMouseClicked="#exit" prefHeight="56.0" prefWidth="85.0" style="-fx-background-color: #560319;" text="Exit" textFill="WHITE">
+         <font>
+            <Font name="B Aria" size="12.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="269.0" layoutY="646.0" onMouseClicked="#back" prefHeight="56.0" prefWidth="94.0" style="-fx-background-color: #7E191B;" text="Back" textFill="WHITE" />
+      <Label layoutX="169.0" layoutY="177.0" prefHeight="36.0" prefWidth="178.0" style="-fx-background-color: #CCCCFF;" text="Name" />
+      <Label layoutX="25.0" layoutY="177.0" prefHeight="36.0" prefWidth="144.0" style="-fx-background-color: #CCCCFF;" text="ID" />
+      <Label layoutX="347.0" layoutY="177.0" prefHeight="36.0" prefWidth="102.0" style="-fx-background-color: #CCCCFF;" text="PhoneNumber" />
+      <TextField fx:id="inputUserName" layoutX="54.0" layoutY="119.0" prefHeight="26.0" prefWidth="182.0" promptText="Speciality:" style="-fx-background-color: #307D7E;" />
+      <JFXButton layoutX="331.0" layoutY="114.0" onMouseClicked="#Speciality" prefHeight="36.0" prefWidth="86.0" style="-fx-background-color: #C9C0BB;" text="Search" />
+   </children>
+</AnchorPane>

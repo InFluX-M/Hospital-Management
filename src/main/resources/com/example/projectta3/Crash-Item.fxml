@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="boxCrash" prefHeight="46.0" prefWidth="899.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="Object" prefHeight="46.0" prefWidth="170.0" style="-fx-background-color: #CCCCFF;" text="Object" />
+      <Label fx:id="Reason" layoutX="170.0" prefHeight="46.0" prefWidth="299.0" style="-fx-background-color: #CCCCFF;" text="Reason" />
+      <Label fx:id="Description" layoutX="469.0" prefHeight="46.0" prefWidth="299.0" style="-fx-background-color: #CCCCFF;" text="Description" />
+      <Label fx:id="Varification" layoutX="768.0" prefHeight="46.0" prefWidth="66.0" style="-fx-background-color: #CCCCFF;" text="Varification" />
+      <JFXButton fx:id="check" layoutX="833.0" onMouseClicked="#Check" prefHeight="46.0" prefWidth="66.0" style="-fx-background-color: #C9C0BB;" text="Check" />
+   </children>
+</AnchorPane>

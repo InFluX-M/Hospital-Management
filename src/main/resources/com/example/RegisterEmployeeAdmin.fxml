@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="536.0" prefWidth="600.0" style="-fx-background-color: #CFECEC;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projectta3.RegisterEmployeeAdminCLR">
+   <children>
+      <TextField fx:id="inputUserName" layoutX="90.0" layoutY="152.0" prefHeight="26.0" prefWidth="182.0" promptText="UserName:" style="-fx-background-color: #307D7E;" />
+      <TextField fx:id="inputEmail" layoutX="90.0" layoutY="249.0" prefHeight="26.0" prefWidth="182.0" promptText="Email:" style="-fx-background-color: #307D7E;" />
+      <TextField fx:id="inputPassword" layoutX="342.0" layoutY="152.0" prefHeight="26.0" prefWidth="182.0" promptText="Password:" style="-fx-background-color: #307D7E;" />
+      <TextField fx:id="inputLastName" layoutX="342.0" layoutY="202.0" prefHeight="26.0" prefWidth="182.0" promptText="LastName:" style="-fx-background-color: #307D7E;" />
+      <TextField fx:id="inputPhoneNumber" layoutX="342.0" layoutY="249.0" prefHeight="26.0" prefWidth="182.0" promptText="PhoneNumber:" style="-fx-background-color: #307D7E;" />
+      <TextField fx:id="inputFirstName" layoutX="90.0" layoutY="202.0" prefHeight="26.0" prefWidth="182.0" promptText="FirstName:" style="-fx-background-color: #307D7E;" />
+      <JFXButton fx:id="registerButton" layoutX="-2.0" layoutY="471.0" onMouseClicked="#register" prefHeight="66.0" prefWidth="302.0" style="-fx-background-color: #7F525D;" text="Register" />
+      <JFXButton fx:id="backButton" layoutX="299.0" layoutY="471.0" onMouseClicked="#back" prefHeight="66.0" prefWidth="302.0" style="-fx-background-color: #686A6C;" text="Back" />
+      <TextField fx:id="inputSpeciality" layoutX="90.0" layoutY="299.0" prefHeight="26.0" prefWidth="182.0" promptText="Speciality:" style="-fx-background-color: #307D7E;" />
+      <TextField fx:id="inputHourlyWages" layoutX="90.0" layoutY="355.0" prefHeight="26.0" prefWidth="182.0" promptText="HourlyWages" style="-fx-background-color: #307D7E;" />
+      <TextField fx:id="inputDailyWorkDutyTime" layoutX="342.0" layoutY="299.0" prefHeight="26.0" prefWidth="182.0" promptText="DailyWorkDutyTime" style="-fx-background-color: #307D7E;" />
+      <TextArea fx:id="inputBiography" layoutX="342.0" layoutY="341.0" prefHeight="54.0" prefWidth="200.0" promptText="Biography" style="-fx-background-color: #4682B4;" />
+      <Label fx:id="ID" layoutX="90.0" layoutY="105.0" prefHeight="26.0" prefWidth="143.0" style="-fx-background-color: #FBF6D9;" />
+      <ComboBox fx:id="comboRules" layoutX="342.0" layoutY="105.0" onMouseClicked="#rule" prefHeight="26.0" prefWidth="81.0" promptText="Rule" style="-fx-background-color: #307D7E;" />
+      <Label fx:id="statue" layoutX="159.0" layoutY="418.0" prefHeight="26.0" prefWidth="274.0" style="-fx-background-color: #FBF6D9;" />
+      <Label prefHeight="82.0" prefWidth="600.0" style="-fx-background-color: #C19A6B;" text="                                   Employee Register" textFill="#474636">
+         <font>
+            <Font name="Segoe UI Black" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

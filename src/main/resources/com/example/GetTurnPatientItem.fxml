@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="boxTurn" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="36.0" prefWidth="598.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="TurnNumber" layoutX="80.0" prefHeight="36.0" prefWidth="135.0" style="-fx-background-color: #CCCCFF;" text="TurnNumber" />
+      <Label fx:id="Day" prefHeight="36.0" prefWidth="80.0" style="-fx-background-color: #CCCCFF;" text="Day" />
+      <Label fx:id="Time" layoutX="215.0" prefHeight="36.0" prefWidth="231.0" style="-fx-background-color: #CCCCFF;" text="Time" />
+      <JFXButton layoutX="532.0" onMouseClicked="#Reserve" prefHeight="36.0" prefWidth="66.0" style="-fx-background-color: #C9C0BB;" text="Reserve" />
+      <ComboBox fx:id="emergency" layoutX="441.0" layoutY="-1.0" prefHeight="36.0" prefWidth="92.0" style="-fx-background-color: #CCCCFF;" />
+   </children>
+</AnchorPane>

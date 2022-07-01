@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="boxTurn" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="36.0" prefWidth="444.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="TurnNumber" prefHeight="36.0" prefWidth="150.0" style="-fx-background-color: #CCCCFF;" text="TurnNumber" />
+      <Label fx:id="UserName" layoutX="147.0" prefHeight="36.0" prefWidth="150.0" style="-fx-background-color: #CCCCFF;" text="UserName" />
+      <Label fx:id="Emergency" layoutX="297.0" prefHeight="36.0" prefWidth="82.0" style="-fx-background-color: #CCCCFF;" text="Emergency" />
+      <Label fx:id="Visited" layoutX="379.0" prefHeight="36.0" prefWidth="66.0" style="-fx-background-color: #CCCCFF;" text="Visited" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXListView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="679.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projectta3.CheckCrashReportsAdminCLR">
+   <children>
+      <JFXListView fx:id="listCrashReports" layoutX="18.0" layoutY="110.0" prefHeight="458.0" prefWidth="923.0" style="-fx-border-color: gray;" />
+      <Label prefHeight="83.0" prefWidth="960.0" style="-fx-background-color: #C19A6B;" text="                                                                         Crash Reports" textFill="#474636">
+         <font>
+            <Font name="Segoe UI Black" size="20.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="855.0" layoutY="609.0" onMouseClicked="#exit" prefHeight="56.0" prefWidth="85.0" style="-fx-background-color: #560319;" text="Exit" textFill="WHITE">
+         <font>
+            <Font name="B Aria" size="12.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="750.0" layoutY="609.0" onMouseClicked="#back" prefHeight="56.0" prefWidth="94.0" style="-fx-background-color: #7E191B;" text="Back" textFill="WHITE" />
+   </children>
+</AnchorPane>
